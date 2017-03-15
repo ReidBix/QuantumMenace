@@ -6,8 +6,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
 
@@ -60,21 +58,27 @@
 <h2>
 <a id="motivation" class="anchor" href="#motivation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Motivation</h2>
 
-<p>A short paragraph that motivates what you are doing - what is the purpose of your project. </p>
+<p>Collin and I are interested in post-quantum because of its relatively recent prominence in the computing world and the potentially drastic effects that it could have on the internet (more specifically secure connections through TLS and SSL).</p>
+
+<p>We want to analyze a number of different algorithms that protect against post-quantum attacks and weigh the benefits and negatives of each in order to get a better grasp on the potential future of TLS. Our general purpose is going to be to determine how the TLS community can best protect against future quantum attacks and offer possible alternatives and options for such protection. </p>
 
 <h2>
 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
 
 <p>A description of what you are planning to do (this doesn’t need a lot of detail now, but should be enough for readers to understand your plans). </p>
 
+<p>At the moment, we are planning to look at a number of different post-quantum capable algorithms and look at their costs for time, space, and security to weigh these algorithms against one another. We will be specifically looking into how TLS connections will be affected in each case as well as in the case that none of these changes are put into effect, with the worst possible case being completely broken TLS connections from quantum-attack. </p>
+
 <h2>
 <a id="other-sources" class="anchor" href="#other-sources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Sources</h2>
 
 <ul>
-<li><a href="https://eprint.iacr.org/2004/297.pdf">https://eprint.iacr.org/2004/297.pdf</a></li>
-<li><a href="http://eprint.iacr.org/2013/383.pdf">http://eprint.iacr.org/2013/383.pdf</a></li>
-<li>
-<a href="http://www.di.ens.fr/%7Educas/NTRUSign_Cryptanalysis/DucasNin">http://www.di.ens.fr/~ducas/NTRUSign_Cryptanalysis/DucasNin</a> guyen_Learning.pdf</li>
+<li><a href="https://eprint.iacr.org/2015/1092.pdf">NewHope PostQuantum TLS Paper</a> Google's take on how to implement postquantum algorithms into TLS</li>
+<li><a href="http://pqcrypto.org/www.springer.com/cda/content/document/cda_downloaddocument/9783540887010-c1.pdf">Introduction to PostQuantum</a> Why we need PQ cryptography, challenges that we may face, and general introduction to PQ</li>
+<li><a href="http://pqcrypto.org/">PQCrypto.org</a>Great site for mining PQ sources and to get a good grasp of the current landscape for postquantum</li>
+<li><a href="https://eprint.iacr.org/2013/383.pdf">BLISS Paper</a>Bimodal Lattice Signature Scheme that was one of the best looking algorithms for postquantum in 2013</li>
+<li><a href="https://eprint.iacr.org/2014/874.pdf">BLISS-B Paper</a>Offers speed improvements on BLISS and other potential changes</li>
+<li><a href="https://eprint.iacr.org/2016/276.pdf">BLZZRD Paper</a>Offers cache protection for the Gaussians required for BLISS/BLISS-B, essentially further improved and secure BLISS-B</li>
 </ul>
 
 </article>
