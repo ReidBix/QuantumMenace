@@ -14,27 +14,30 @@ If you have any questions or would like to contact us about the research, feel f
 ## What is the Quantum Menace?
 ### 3/31/2017
 
+
+
 ## Introduction to Post-Quantum Cryptography
 [Introduction](http://pqcrypto.org/www.springer.com/cda/content/document/cda_downloaddocument/9783540887010-c1.pdf)
+
 Quantum computers are dangerous. No, they're not going to evolve into the terminator and they're not going to cause the mystical singularity, but what they will do is give their owners and users the ability to break cryptography once considered secure.
 
 Things such as RSA, DSA, and ECDSA rely on the difficulty of factoring large prime numbers and elliptic curves, both of which were once considered to be a hard problem to solve in polynomial time. The problem with quantum computing is that newly developed quantum algorithms such as Shor's Algorithm and Grover's Algorithm decrease the expected solution time to a reasonable polynomial time. What once would've taken longer than the age of the universe to solve may now take only a few days or even weeks. Considering the previous impossibility, there surely will exist entities willing to pay for the large time and monetary costs in order to break somebody else's system.
 
 With the introduction of quantum computing, there surely must exist problems that are even too difficult for a quantum computer to solve. Luckily enough for many cryptographers out there, many current problems and cryptographic systems are 'quantum-resistant'.
 
--Hash-Based Cryptography
+-**Hash-Based Cryptography**
 Examples inlcude the well-known Merkle hash-tree public-key signature system, which was built upon ideas of Lamport and Diffie.
 
--Code-Based Cryptography
+-**Code-Based Cryptography**
 McEliece's hidden-Goppa-code public-key encryption system is one of the few known examples of such a system.
 
--Lattice-Based Cryptography
+-**Lattice-Based Cryptography**
 These are reliant on the difficulty of solving for lattices which are used in a number of algorithms including: NTRU, Ring-LWE, or BLISS.
 
--Multi-variate-Quadratic-Equations Cryptography
+-**Multi-variate-Quadratic-Equations Cryptography**
 An interesting cryptographic system relying on, surprise, multi-variate quadratic equations to protect a public-key, an example of which is Patarin's HFE-V public-key-signature system.
 
--Secret-Key Cryptography
+-**Secret-Key Cryptography**
 The most well-known and widely used example of this would be the Daemen-Rijmen "Rijndael" cipher, otherwise named "AES" for the Advanced Encryption Standard.
 
 ### But Why Switch Now?
@@ -68,10 +71,12 @@ One of our researchers has done some previous research along the lines of findin
 
 ### PASS, PASS-2, and PASSign
 [PASSign](https://eprint.iacr.org/2013/383.pdf)
+
 Research has also been done on alternative quantum-resistant algorithms including the Partial Fourier Recovery Problem integrated into the PASS and PASS-2 algorithms. In 2013, research was done to create a practical post-quantum signature scheme known as PASSign, which relies on the hardness of recovering a ring element with small norm from an incomplete description of its Chinese remainder representation.
 
 ### Supersingular Isogeny Diffie-Hellman
 [Intro to Supersingular Isogney Diffie-Hellman](http://csclub.uwaterloo.ca/~dburbani/work/friendlysidh.pdf)
+
 Diffie-Hellman is also one of the algorithms that will be at risk once practical quantum computers become available. As an improvement, recent research suggests the applications of Isogenies and Supersingular Elliptic Curves to prevent the inherent break brought about through quantum computers. Diffie-Hellman, specifically ephemeral Diffie-Hellman (DHE), is used in the current versions of TLS and even the proposed new v1.3. While not considered insecure at the moment, we must begin to consider altering current standards or offer alternative solutions to existing ones for the possible case that quantum computers do become practical in the next few decades.
 
 ---
