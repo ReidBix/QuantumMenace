@@ -25,20 +25,15 @@ Things such as RSA, DSA, and ECDSA rely on the difficulty of factoring large pri
 
 With the introduction of quantum computing, there surely must exist problems that are even too difficult for a quantum computer to solve. Luckily enough for many cryptographers out there, many current problems and cryptographic systems are 'quantum-resistant'.
 
-- **Hash-Based Cryptography**
-Examples inlcude the well-known Merkle hash-tree public-key signature system, which was built upon ideas of Lamport and Diffie.
+- **Hash-Based Cryptography** : Examples inlcude the well-known Merkle hash-tree public-key signature system, which was built upon ideas of Lamport and Diffie.
 
-- **Code-Based Cryptography**
-McEliece's hidden-Goppa-code public-key encryption system is one of the few known examples of such a system.
+- **Code-Based Cryptography** : McEliece's hidden-Goppa-code public-key encryption system is one of the few known examples of such a system.
 
-- **Lattice-Based Cryptography**
-These are reliant on the difficulty of solving for lattices which are used in a number of algorithms including: NTRU, Ring-LWE, or BLISS.
+- **Lattice-Based Cryptography** : These are reliant on the difficulty of solving for lattices which are used in a number of algorithms including: NTRU, Ring-LWE, or BLISS.
 
-- **Multi-variate-Quadratic-Equations Cryptography**
-An interesting cryptographic system relying on, surprise, multi-variate quadratic equations to protect a public-key, an example of which is Patarin's HFE-V public-key-signature system.
+- **Multi-variate-Quadratic-Equations Cryptography** : An interesting cryptographic system relying on, surprise, multi-variate quadratic equations to protect a public-key, an example of which is Patarin's HFE-V public-key-signature system.
 
-- **Secret-Key Cryptography**
-The most well-known and widely used example of this would be the Daemen-Rijmen "Rijndael" cipher, otherwise named "AES" for the Advanced Encryption Standard.
+- **Secret-Key Cryptography** : The most well-known and widely used example of this would be the Daemen-Rijmen "Rijndael" cipher, otherwise named "AES" for the Advanced Encryption Standard.
 
 ### But Why Switch Now?
 
