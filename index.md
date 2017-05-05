@@ -11,6 +11,14 @@ David Evans (Professor/Advisor)
 If you have any questions or would like to contact us about the research, feel free to email anybody that is a part of the team: {rmb3yz, cmb5nh, evans}@virginia.edu
 
 ---
+## Research
+### 5/4/2017
+[The Future of TLS](file://TheFutureofTLS.pdf)
+[Quantum Menace](file://TheQuantumMenace.pdf)
+
+This is the culmination of our research on post-quantum TLS.
+
+---
 ## What is the Quantum Menace?
 ### 3/31/2017
 
