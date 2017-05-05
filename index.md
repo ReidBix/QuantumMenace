@@ -14,7 +14,10 @@ If you have any questions or would like to contact us about the research, feel f
 ## Research
 ### 5/4/2017
 [The Future of TLS](TheFutureofTLS.pdf)
-[Quantum Menace](TheQuantumMenace.pdf)
+
+[Quantum Menace Presentation](TheQuantumMenacePresentation.pdf)
+
+[Quantum Menace Paper](TheQuantumMenace.pdf)
 
 This is the culmination of our research on post-quantum TLS.
 
